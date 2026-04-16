@@ -1,0 +1,134 @@
+@media (max-width:600px){
+nav{
+    flex-direction: column;
+    align-items: center;
+}
+}
+body{
+    background-color: darkkhaki;
+}
+header{
+    background-color:teal ;
+}
+
+
+#h1-1::first-letter{
+    font-size: 2em;
+}
+
+#h1-1 {
+    text-align: center;
+    color:midnightblue;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: #27A6A1;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color:#1e7e7b;
+    transform: scaleX(1.1);
+    transition: 2s;
+}
+.navbar li{
+    float: left;
+}
+main{
+    text-align: center;
+}
+#Home{
+    text-align: center;
+    color:darkslategrey
+}
+#Mycourses{
+    text-align: center;
+    color: darkslategrey;
+}
+#Contactus{
+    text-align: center;
+    color: darkslategrey;
+}
+#Addcourse{
+    text-align: center;
+    color: darkslategrey;
+}
+#reset-1:hover{
+    background-color:#243B5A;
+    color:#27A6A1;
+    cursor: pointer;
+    transform: scaleX(1.1);
+    transition: 1s;
+}
+#submit-1:hover{
+    background-color:#243B5A;
+    color:#27A6A1;
+    cursor: pointer;
+    transform: scaleX(1.1);
+    transition: 1s;
+}
+table{
+    width: 1000px;
+    border-collapse: collapse;
+    margin-left: 130px;
+    padding:20px;
+    background-color:#002C54 ;
+    color:#FDF6F6;
+}
+#container{
+    background-color: lightgrey;
+}
+#reset-2:hover{
+    background-color:#243B5A;
+    color:#27A6A1;
+    cursor: pointer;
+    transform: scaleX(1.1);
+    transition: 1s;
+}
+#submit-2:hover{
+    background-color:#243B5A;
+    color:#27A6A1;
+    cursor: pointer;
+    transform: scaleX(1.1);
+    transition: 1s;
+}
+
+#form1{
+    background-color:#002C54;
+    border: 2px solid ;
+    border-radius: 20px;
+    text-align: center;
+    color: #FDF6F6;
+    padding:10px ;
+}
+#form2{
+    background-color:#002C54;
+    border: 2px solid ;
+    border-radius: 20px;
+    text-align: center;
+    color: #FDF6F6;
+    padding:10px ;
+}
+label{
+    display: block;
+}
+input[type=reset]{
+    width: 20%;
+}
+input[type=submit]{
+    width: 20%;
+}
